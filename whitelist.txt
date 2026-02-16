@@ -1,5 +1,6 @@
 *&  (blacklist marker for mobile)
 mattbatwings*&
+Candid.Technology
 The Organic Chemistry Tutor
 Problem Solved Math Tutoring
 Patrick JMT
