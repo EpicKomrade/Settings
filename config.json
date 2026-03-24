@@ -1,0 +1,454 @@
+{
+  "cell_streak": "I21",
+  "cell_rolling_avg": "I19",
+  "cell_status": "K12",
+  "cell_grade": "K13",
+  "wrate_grade": "I20",
+  "cell_best_streak": "U12",
+  "cell_levels_per_day": "K19",
+  "weight_streak": 1,
+  "weight_rolling_avg": 2.5,
+  "weight_status": 11,
+  "weight_levels_per_day": 3,
+  "status_map": {
+    "LOSING": 0,
+    "IMPROVING": 1,
+    "WINNING": 2
+  },
+  "custom_group_table": [
+    [0, 10, 0],
+    [10, 20, 1],
+    [20, 29, 2]
+  ],
+  "messages": [
+    {
+      "group": 0,
+      "improving": [
+        "Minor recovery detected — still failing.",
+        "Slight stabilization — overall weak.",
+        "Small gains — insufficient to reverse trend.",
+        "Early correction signs — system unstable.",
+        "Weak progress — recovery not significant.",
+        "Partial improvement — still critically low.",
+        "Incremental adjustment — barely noticeable.",
+        "Initial gains observed — no stability yet.",
+        "Corrective action attempted — still failing.",
+        "Minor recovery — system far from stable."
+      ],
+      "declining": [
+        "System failure worsening — immediate action needed.",
+        "Performance collapsing further — critical state.",
+        "Total breakdown — no recovery visible.",
+        "Losses accelerating — system uncontrollable.",
+        "Critical instability — operations failing.",
+        "Execution failing — corrective measures ineffective.",
+        "Behavior degrading rapidly — control lost.",
+        "Operational collapse — urgent intervention required.",
+        "Trend negative — deepening failure.",
+        "System entirely unstable — overhaul required."
+      ],
+      "neutral": [
+        "Total collapse — resources drained, immediate overhaul required.",
+        "Critical failure — system broken, continuing costs escalate.",
+        "Absolute stagnation — trapped in failure, losses mounting.",
+        "System immobilized — every moment worsening the situation.",
+        "Operations collapsing — decisive action needed or disaster.",
+        "Behavior locked — control lost, urgent recovery required.",
+        "Catastrophic plateau — trapped with no gains, risks severe.",
+        "Full breakdown — interventions overdue and ineffective.",
+        "Stuck in critical failure — each second increases damage.",
+        "Complete collapse imminent — must act immediately to survive."
+      ]
+    },
+    {
+      "group": 1,
+      "improving": [
+        "Below expectations — minor gains detected.",
+        "Weak recovery — performance still poor.",
+        "Slight improvement — correction underway.",
+        "Partial stabilization forming — still fragile.",
+        "Execution marginally better — not consistent.",
+        "Small gains accumulating — not reliable.",
+        "Progress evident but minor — needs reinforcement.",
+        "Early improvements — momentum insufficient.",
+        "Corrective measures working slightly — system weak.",
+        "Performance slightly improving — still low overall."
+      ],
+      "declining": [
+        "Performance slipping — minor regression.",
+        "Execution deteriorating slightly — watch closely.",
+        "Small losses appearing — momentum lost.",
+        "Operational inconsistency increasing — weak control.",
+        "Regression evident — prior gains eroding.",
+        "Minor decline — corrective action insufficient.",
+        "System weakening — errors compounding.",
+        "Losses accumulating — performance unstable.",
+        "Trend negative — deterioration ongoing.",
+        "Critical decline — intervention needed soon."
+      ],
+      "neutral": [
+        "Total collapse — resources drained, immediate overhaul required.",
+        "Critical failure — system broken, continuing costs escalate.",
+        "Absolute stagnation — trapped in failure, losses mounting.",
+        "System immobilized — every moment worsening the situation.",
+        "Operations collapsing — decisive action needed or disaster.",
+        "Behavior locked — control lost, urgent recovery required.",
+        "Catastrophic plateau — trapped with no gains, risks severe.",
+        "Full breakdown — interventions overdue and ineffective.",
+        "Stuck in critical failure — each second increases damage.",
+        "Complete collapse imminent — must act immediately to survive."
+      ]
+    },
+    {
+      "group": 2,
+      "improving": [
+        "Tactical adjustments — improvement starting.",
+        "Execution rising slightly — still off alignment.",
+        "Momentum forming — progress minor.",
+        "Performance improving — inconsistencies remain.",
+        "Some gains visible — not yet reliable.",
+        "Corrective actions effective — partial results.",
+        "System stabilizing slightly — fluctuations present.",
+        "Behavior improving — minor reinforcement needed.",
+        "Progress noticeable — not sufficient for stability.",
+        "Improvements significant — still below standard."
+      ],
+      "declining": [
+        "Minor setbacks — progress slowing.",
+        "Performance dipping — corrections weak.",
+        "Momentum lost — inconsistencies visible.",
+        "Execution faltering slightly — watch carefully.",
+        "Partial regression — system unstable.",
+        "Losses accumulating — prior gains shrinking.",
+        "Behavior slipping — errors compounding.",
+        "Operational efficiency dropping — corrections insufficient.",
+        "Trend worsening — vigilance needed.",
+        "Significant decline — corrective measures urgent."
+      ],
+      "neutral": [
+        "Flatlined at low level — resources wasted, urgent recovery required.",
+        "Stuck in ineffective state — must break out or regress further.",
+        "Operations locked — continuing as-is drains capacity.",
+        "Behavior frozen — wasted effort without advancement.",
+        "No improvement — remaining here risks further losses.",
+        "System trapped — decisive action needed to escape failure.",
+        "Plateaued at weak level — every delay compounds risk.",
+        "Flat performance — cannot afford complacency.",
+        "Frozen output — must intervene or regress occurs.",
+        "Critical low-level stalemate — recover immediately."
+      ]
+    },
+    {
+      "group": 3,
+      "improving": [
+        "Progress visible — some stability forming.",
+        "Execution improving — gaps still present.",
+        "Momentum increasing — minor inconsistencies.",
+        "Performance rising — needs reinforcement.",
+        "System showing improvement — not fully stable.",
+        "Behavior aligning — improvements noticeable.",
+        "Operational flow stabilizing — minor gaps remain.",
+        "Corrections effective — small progress evident.",
+        "Consistency building — risk of reversal present.",
+        "Strong improvement signs — still vulnerable."
+      ],
+      "declining": [
+        "Progress faltering — minor losses.",
+        "Execution slipping — momentum decreasing.",
+        "Operational gaps widening — system unstable.",
+        "Partial regression — control weakening.",
+        "Performance dropping — minor decline continues.",
+        "Behavior inconsistent — errors increasing.",
+        "Trend reversing — corrections delayed.",
+        "Loss of momentum — stability threatened.",
+        "Operational efficiency decreasing — attention needed.",
+        "Significant regression — prior gains eroding."
+      ],
+      "neutral": [
+        "Trapped at mid-level — effort producing minimal effect.",
+        "Flatlined performance — stuck, opportunity slipping away.",
+        "Operations stable but ineffective — must improve immediately.",
+        "Behavior plateaued — wasted potential accumulating.",
+        "No forward progress — remaining here risks stagnation.",
+        "Locked in mediocre performance — corrective action needed.",
+        "Output stagnant — decisive push required.",
+        "Performance flat — resources not converting into gains.",
+        "Operations steady — but trapped without meaningful advancement.",
+        "Mid-level plateau — urgent effort required to break free."
+      ]
+    },
+    {
+      "group": 4,
+      "improving": [
+        "Foothold forming — small gains secured.",
+        "Momentum building — performance decent.",
+        "Execution strengthening — minor errors remain.",
+        "Performance improving — stabilize routines.",
+        "Operational flow becoming consistent — needs reinforcement.",
+        "Behavior aligning — small progress evident.",
+        "Corrections holding — improvements noticeable.",
+        "Consistency forming — minor gaps remain.",
+        "Trend positive — sustain attention.",
+        "Stable improvement — continue structured action."
+      ],
+      "declining": [
+        "Foothold weakening — minor setbacks.",
+        "Momentum dropping — attention required.",
+        "Execution inconsistent — small regression.",
+        "Performance slipping — stabilize quickly.",
+        "Operational flow weakening — minor inefficiencies.",
+        "Behavior slipping — previous gains at risk.",
+        "Partial regression — corrective action needed.",
+        "Consistency threatened — maintain routines.",
+        "Trend negative — minor losses accumulating.",
+        "Significant decline — monitor performance closely."
+      ],
+      "neutral": [
+        "Performance okay — small gains made, aim higher immediately.",
+        "Momentum stable — advance further to avoid stagnation.",
+        "Execution consistent — push beyond current comfort zone.",
+        "Operations holding — do not settle, elevate output.",
+        "Behavior aligned — actively target next level.",
+        "Progress steady — strive for meaningful improvement.",
+        "Consistency present — push for measurable advancement.",
+        "Trend positive — continue deliberate escalation.",
+        "Performance maintained — actively aim higher to avoid stagnation.",
+        "Stable level reached — continue structured push upward."
+      ]
+    },
+    {
+      "group": 5,
+      "improving": [
+        "Execution stabilizing — maintain consistency.",
+        "Momentum forming — reinforce routines.",
+        "Performance improving — sustain discipline.",
+        "Operational flow consistent — expand gains.",
+        "Strategy effective — continue execution.",
+        "Small wins stacking — maintain focus.",
+        "Behavior aligning — reinforce habits.",
+        "Progress steady — continue structured action.",
+        "Execution reliable — optimize further.",
+        "Consistency achieved — scale performance."
+      ],
+      "declining": [
+        "Minor slippage — previous gains at risk.",
+        "Execution losing some efficiency.",
+        "Momentum slowing — attention required.",
+        "Performance dropping slightly — stay focused.",
+        "Strategy losing minor edge — corrective steps needed.",
+        "Operational flow weakening — minor inconsistencies.",
+        "Behavior slipping — small habits eroding.",
+        "Progress regressing slightly — act to stabilize.",
+        "Control decreasing — maintain routines.",
+        "Regression visible — prior level at risk."
+      ],
+      "neutral": [
+        "Performance stable — reinforce gains and push higher.",
+        "Momentum steady — continue scaling output.",
+        "Execution consistent — minor optimizations can boost level.",
+        "Operations stable — expand beyond current routines.",
+        "Behavior aligned — aim for stronger impact.",
+        "Progress plateaued — push for further advancement.",
+        "Consistency holding — pursue higher achievements.",
+        "Strategy effective — challenge yourself beyond comfort.",
+        "Small adjustments maintaining — target next step.",
+        "Operations steady — continue structured escalation."
+      ]
+    },
+    {
+      "group": 6,
+      "improving": [
+        "Strong execution — continue compounding gains.",
+        "Momentum stable — push for higher efficiency.",
+        "Performance solid — refine key systems.",
+        "Operational strength evident — optimize further.",
+        "Consistency high — expand leverage points.",
+        "Strategy effective — maintain discipline.",
+        "Metrics strong — aim for next level.",
+        "Execution reliable — build on strengths.",
+        "Behavior consistent — reinforce structure.",
+        "Progress sustained — continue scaling."
+      ],
+      "declining": [
+        "Performance dipping slightly — gains not fully secure.",
+        "Execution losing some precision.",
+        "Momentum slowing — maintain vigilance.",
+        "Strategy effectiveness weakening slightly.",
+        "Operational flow minorly disrupted — correct quickly.",
+        "Consistency dropping — small habits slipping.",
+        "Metrics dropping slightly — watch performance.",
+        "Behavior consistency weakening.",
+        "Control decreasing — maintain structure immediately.",
+        "Regression beginning — previous advances slipping."
+      ],
+      "neutral": [
+        "Performance solid — continue leveraging strengths.",
+        "Momentum stable — small optimization possible.",
+        "Execution strong — maintain current level.",
+        "Operations steady — prepare to refine further.",
+        "Consistency high — minor adjustments achievable.",
+        "Strategy effective — maintain leverage.",
+        "Metrics strong — monitor but hold gains.",
+        "Behavior consistent — reinforce best practices.",
+        "Progress steady — position for next scaling.",
+        "Operational mastery held — prepare incremental improvements."
+      ]
+    },
+    {
+      "group": 7,
+      "improving": [
+        "High-level execution — maintain precision.",
+        "Momentum strong — capitalize fully.",
+        "Performance high — refine for efficiency.",
+        "Operational control strong — optimize details.",
+        "Strategy effective — expand advantages.",
+        "Consistency elite — reinforce discipline.",
+        "Metrics strong — aim for dominance.",
+        "Execution sharp — maintain control.",
+        "Behavior aligned — sustain intensity.",
+        "Progress compounding — continue upward."
+      ],
+      "declining": [
+        "High performance slightly weakening — maintain edge.",
+        "Execution losing sharpness.",
+        "Momentum slowing — minor gains at risk.",
+        "Strategy clarity decreasing slightly.",
+        "Operational control minorly compromised.",
+        "Consistency slipping — small errors appearing.",
+        "Metrics dipping — attention required.",
+        "Behavior intensity decreasing slightly.",
+        "Control weakening — correct to maintain dominance.",
+        "Regression visible — elite level at minor risk."
+      ],
+      "neutral": [
+        "Performance elite — maintain gains while preparing refinement.",
+        "Momentum strong — minor optimization achievable.",
+        "Execution precise — continue reinforcing best practices.",
+        "Operational control stable — aim to refine details.",
+        "Strategy effective — maintain dominance level.",
+        "Consistency elite — reinforce habits.",
+        "Metrics strong — hold position while pushing edges.",
+        "Behavior aligned — sustain elite discipline.",
+        "Progress steady — prepare incremental advancement.",
+        "Operational mastery held — continue refining systems."
+      ]
+    },
+    {
+      "group": 8,
+      "improving": [
+        "Elite execution — maintain dominance.",
+        "Momentum powerful — maximize advantage.",
+        "Performance exceptional — refine further.",
+        "Operational control elite — sustain precision.",
+        "Strategy optimal — expand reach.",
+        "Consistency top-tier — reinforce habits.",
+        "Metrics elite — push limits.",
+        "Execution flawless — maintain edge.",
+        "Behavior elite — sustain discipline.",
+        "Dominance forming — continue control."
+      ],
+      "declining": [
+        "Elite performance slightly slipping — maintain control.",
+        "Execution losing some precision.",
+        "Momentum decreasing — minor advantage lost.",
+        "Strategy weakening slightly — adjust quickly.",
+        "Operational control degrading slightly.",
+        "Consistency dropping — habits needing reinforcement.",
+        "Metrics dropping slightly — maintain focus.",
+        "Behavior intensity slightly weakening.",
+        "Control reducing — prevent further slippage.",
+        "Minor regression — elite level temporarily at risk."
+      ],
+      "neutral": [
+        "Performance elite — sustain dominance without slipping.",
+        "Momentum strong — minor tweaks possible for refinement.",
+        "Execution flawless — hold standard.",
+        "Operational control elite — continue minor adjustments.",
+        "Strategy optimal — maintain advantage.",
+        "Consistency top-tier — reinforce discipline.",
+        "Metrics elite — hold and monitor.",
+        "Behavior elite — minor optimization achievable.",
+        "Progress steady — maintain peak performance.",
+        "Dominance stable — prevent regression."
+      ]
+    },
+    {
+      "group": 9,
+      "improving": [
+        "Near-peak execution — sustain excellence.",
+        "Momentum dominant — maintain pressure.",
+        "Performance exceptional — reinforce systems.",
+        "Operational mastery strong — refine further.",
+        "Strategy superior — maintain control.",
+        "Consistency elite — sustain habits.",
+        "Metrics peak-level — hold position.",
+        "Execution near flawless — maintain standard.",
+        "Behavior elite — reinforce discipline.",
+        "Dominance sustained — continue execution."
+      ],
+      "declining": [
+        "Near-peak performance slipping slightly — maintain excellence.",
+        "Execution losing fine precision.",
+        "Momentum slowing — dominance at minor risk.",
+        "Strategy weakening slightly.",
+        "Operational mastery minorly compromised.",
+        "Consistency dropping — elite habits needing correction.",
+        "Metrics dipping — watch key indicators.",
+        "Behavior intensity slightly weakening.",
+        "Control decreasing — near-peak advantage at risk.",
+        "Minor regression — sustain focus to prevent decline."
+      ],
+      "neutral": [
+        "Near-peak performance held — minor refinement possible.",
+        "Momentum dominant — sustain current advantage.",
+        "Execution precise — minor optimization achievable.",
+        "Operational mastery strong — maintain standard.",
+        "Strategy superior — continue careful adjustment.",
+        "Consistency elite — reinforce peak habits.",
+        "Metrics peak-level — hold gains.",
+        "Behavior elite — maintain excellence.",
+        "Progress steady — minor tweaks only.",
+        "Dominance sustained — prevent slippage."
+      ]
+    },
+    {
+      "group": 10,
+      "improving": [
+        "Peak execution — maintain absolute control.",
+        "Dominance complete — sustain perfection.",
+        "Performance maxed — reinforce systems.",
+        "Operational mastery — maintain excellence.",
+        "Strategy flawless — continue execution.",
+        "Consistency perfect — sustain habits.",
+        "Metrics at peak — maintain level.",
+        "Execution flawless — hold standard.",
+        "Behavior optimal — sustain discipline.",
+        "Total control — maintain dominance."
+      ],
+      "declining": [
+        "Peak performance dipping slightly — perfection not yet lost.",
+        "Execution losing minor precision.",
+        "Momentum slightly decreasing — dominance reducing.",
+        "Strategy slightly weakening.",
+        "Operational mastery minorly compromised.",
+        "Consistency dropping — habits slightly faltering.",
+        "Metrics dipping — monitor carefully.",
+        "Behavior slightly weakening.",
+        "Control slightly slipping — maintain attention.",
+        "Minor regression — elite level still intact but needs focus."
+      ],
+      "neutral": [
+        "Peak performance stable — maintain perfection.",
+        "Dominance complete — minor refinements possible.",
+        "Execution flawless — sustain absolute control.",
+        "Operational mastery maintained — optimize only subtly.",
+        "Strategy flawless — continue peak execution.",
+        "Consistency perfect — monitor habits closely.",
+        "Metrics at peak — maintain level with vigilance.",
+        "Behavior optimal — minor tweaks only.",
+        "Progress steady — hold peak performance.",
+        "Total control maintained — perfection preserved."
+      ]
+    }
+  ]
+}
