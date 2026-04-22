@@ -10,11 +10,7 @@
   "weight_rolling_avg": 2.5,
   "weight_status": 11,
   "weight_levels_per_day": 3,
-  "status_map": {
-    "LOSING": 0,
-    "IMPROVING": 1,
-    "WINNING": 2
-  },
+  "status_map": {"LOSING": 0, "STAGNANT": 0, "IMPROVING": 0, "WINNING": 0},
   "custom_group_table": [
     [0, 17.7, 0],
     [17.7, 23, 1],
