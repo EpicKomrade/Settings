@@ -6,6 +6,7 @@
   "wrate_grade": "I20",
   "cell_best_streak": "U12",
   "cell_levels_per_day": "K19",
+  "cell_missing": "I23",
   "weight_streak": 1,
   "weight_rolling_avg": 2.5,
   "weight_status": 11,
