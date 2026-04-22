@@ -12,7 +12,7 @@
   "weight_levels_per_day": 3,
   "status_map": {"LOSING": 0, "STAGNANT": 0, "IMPROVING": 0, "WINNING": 0},
   "custom_group_table": [
-    [0, 17.7, 0],
+    [0, 17, 0],
     [17.7, 23, 1],
     [23, 29.5, 2],
     [29.5, 35.1, 3]
