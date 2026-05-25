@@ -18,6 +18,11 @@
     [23, 29.5, 2],
     [29.5, 35.1, 3]
   ],
+  "auto_fill_config": {
+    "time_frame_days": 8,
+    "max_non_numeric": 3,
+    "fill_empty_scores": true
+  },
   "messages": [
     {
       "group": 0,
