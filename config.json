@@ -20,7 +20,7 @@
   ],
   "auto_fill_config": {
     "time_frame_days": 8,
-    "max_non_numeric": 5,
+    "max_non_numeric": 3,
     "fill_empty_scores": true
   },
   "messages": [
