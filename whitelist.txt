@@ -7,6 +7,7 @@ Dr. Shane Ross
 The Engineers Post
 2in1 Bricking
 Dot Physics
+acephysics
 Amit Mandal
 Jonathan Sprinkle
 XF Motorsports
