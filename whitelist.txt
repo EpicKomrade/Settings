@@ -1,6 +1,7 @@
 *&  (blacklist marker for mobile)
 Jorge Rodriguez
 Bricks Master Builders
+FloatHeadPhysics
 Americas Drivers Ed
 Jack Stewart
 Zerobricks
