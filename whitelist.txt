@@ -1,6 +1,8 @@
 *&  (blacklist marker for mobile)
 Jorge Rodriguez
 Steve Mould
+Fraser Cain
+The Science Asylum
 Joao's Lab
 The LabOtomy
 Science Ready
