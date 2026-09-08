@@ -1,6 +1,7 @@
 *&  (blacklist marker for mobile)
 Jorge Rodriguez
 Steve Mould
+mathOgenius
 Jim Simons
 Mike, the Mathematician
 GeographicALLY
