@@ -6,6 +6,7 @@ mathOgenius
 Jim Simons
 Danny Kopp
 ONE POINT ACADEMY
+TutorialsPoint
 Magic Marks
 Engineering Explained
 Soroban Lessons
