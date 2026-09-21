@@ -1,6 +1,7 @@
 *&  (blacklist marker for mobile)
 Jorge Rodriguez
 Steve Mould
+Jonas Tayaban
 ONE POINT ACADEMY
 Professor Wortman
 GK ELT
